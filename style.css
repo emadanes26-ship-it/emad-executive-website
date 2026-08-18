@@ -18,3 +18,46 @@ h1{font-size:clamp(52px,6vw,88px);line-height:.98;margin:16px 0 24px;letter-spac
 .contact{background:#fff}.contact h3{max-width:950px}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.contact-grid a{padding:20px;border:1px solid var(--line);text-decoration:none;color:#18212b}.contact-grid small,.contact-grid strong{display:block}.contact-grid small{color:#9a7942;text-transform:uppercase;letter-spacing:1.5px;font-size:10px}.contact-grid strong{margin-top:4px}.linkedin-note{font-size:12px;color:#7a838b;margin-top:14px}
 footer{background:#0f1720;color:#aeb6bd;padding:26px 6vw;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px;border-top:1px solid rgba(198,161,92,.3)}
 @media(max-width:900px){nav{display:none}.hero{grid-template-columns:1fr;padding-top:60px}.hero-photo-wrap{grid-row:1}.photo-frame{width:min(310px,80vw)}.mini-stats{grid-template-columns:1fr}.two,.cards,.development-grid,.portfolio-grid,.contact-grid{grid-template-columns:1fr}.row{grid-template-columns:1fr}h1{font-size:50px}.roleline{font-size:17px}}
+
+
+.linkedin-card {
+  margin-top: 22px;
+}
+
+.linkedin-card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 22px;
+  border: 1px solid #d8cdbd;
+  text-decoration: none;
+  color: #18212d;
+  font-size: 18px;
+  font-weight: 700;
+  background: #ffffff;
+}
+
+.linkedin-card small {
+  display: block;
+  color: #b07b32;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+.linkedin-card strong {
+  display: block;
+}
+
+.linkedin-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: #0A66C2;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 800;
+  border-radius: 4px;
+}
