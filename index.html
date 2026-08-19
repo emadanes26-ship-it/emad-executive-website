@@ -129,20 +129,59 @@
 <section id="contact" class="section contact">
   <div class="section-kicker">PROFESSIONAL CONTACT</div>
   <h3>Professional connections and international business conversations.</h3>
-  <div class="contact-grid">
-    <a href="mailto:emad.anes.boles@gmail.com"><small>Email</small><strong>emad.anes.boles@gmail.com</strong></a>
-    <a href="tel:+96567711929"><small>Mobile</small><strong>+965 677 11 929</strong></a>
-    <a href="https://emad.anes.boles-ship-it.github.io/emad-executive-website/" target="_blank" rel="noopener"><small>Website</small><strong>Executive Professional Profile</strong></a>
-  </div>
-<div class="linkedin-card">
-  <a href="https://www.linkedin.com/in/emad-boles" target="_blank" rel="noopener">
+<div class="contact-grid">
+
+  <a href="mailto:emad.anes.boles@gmail.com">
+    <small>Email</small>
+    <strong>emad.anes.boles@gmail.com</strong>
+  </a>
+
+  <a href="tel:+96567711929">
+    <small>Mobile</small>
+    <strong>+965 677 11 929</strong>
+  </a>
+
+  <a href="https://emad.anes.boles-ship-it.github.io/emad-executive-website/" target="_blank" rel="noopener">
+    <small>Website</small>
+    <strong>Executive Professional Profile</strong>
+  </a>
+
+  <a class="linkedin-contact" href="https://www.linkedin.com/in/emad-boles" target="_blank" rel="noopener">
     <span class="linkedin-icon">in</span>
     <span>
-      <small>LINKEDIN</small>
+      <small>LinkedIn</small>
       <strong>LinkedIn Professional Profile</strong>
     </span>
   </a>
+
 </div>
 <footer><span>© 2026 Emad Anes Meakheal Boles</span><span>Integrity • Professionalism • Accountability • Trust • Excellence</span></footer>
 </body>
 </html>
+
+
+  .contact-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.linkedin-contact {
+  display: flex !important;
+  align-items: center;
+  gap: 14px;
+}
+
+.linkedin-contact .linkedin-icon {
+  flex: 0 0 42px;
+}
+
+@media (max-width: 1100px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
