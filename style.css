@@ -18,3 +18,22 @@ h1{font-size:clamp(52px,6vw,88px);line-height:.98;margin:16px 0 24px;letter-spac
 .contact{background:#fff}.contact h3{max-width:950px}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.contact-grid a{padding:20px;border:1px solid var(--line);text-decoration:none;color:#18212b}.contact-grid small,.contact-grid strong{display:block}.contact-grid small{color:#9a7942;text-transform:uppercase;letter-spacing:1.5px;font-size:10px}.contact-grid strong{margin-top:4px}.linkedin-note{font-size:12px;color:#7a838b;margin-top:14px}
 footer{background:#0f1720;color:#aeb6bd;padding:26px 6vw;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px;border-top:1px solid rgba(198,161,92,.3)}
 @media(max-width:900px){nav{display:none}.hero{grid-template-columns:1fr;padding-top:60px}.hero-photo-wrap{grid-row:1}.photo-frame{width:min(310px,80vw)}.mini-stats{grid-template-columns:1fr}.two,.cards,.development-grid,.portfolio-grid,.contact-grid{grid-template-columns:1fr}.row{grid-template-columns:1fr}h1{font-size:50px}.roleline{font-size:17px}}
+/* Final readability and contact refinements */
+#impact .portfolio-card{padding:26px}
+#impact .portfolio-card b{font-size:17px}
+#impact .portfolio-card span{font-size:15px;line-height:1.65}
+.cards article{padding:27px}
+.cards h4{font-size:20px}
+.cards p{font-size:15px;line-height:1.65}
+.row{padding:30px 0}
+.row .when{font-size:15px}
+.row h4{font-size:22px}
+.row p{font-size:15px;line-height:1.7}
+.dev-card strong{font-size:20px}.dev-card span{font-size:14px}.dev-card p{font-size:15px;line-height:1.65}
+#portfolio .portfolio-card{padding:24px}#portfolio .portfolio-grid b{font-size:17px}#portfolio .portfolio-grid span{font-size:14px;line-height:1.6}
+.contact-grid a.contact-item{display:flex;align-items:center;gap:15px;padding:22px}
+.contact-icon{width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border:1px solid var(--gold);color:#9a7942;font-size:21px;line-height:1}
+.linkedin-icon{background:#0a66c2;color:#fff;border-color:#0a66c2;font-family:Arial,Helvetica,sans-serif;font-weight:800;font-size:18px;border-radius:3px}
+.email-icon{font-size:22px}.phone-icon{font-size:19px}
+.contact-grid small{font-size:11px}.contact-grid strong{font-size:15px;overflow-wrap:anywhere}
+@media(max-width:900px){#impact .portfolio-card span,.cards p,.row p,.dev-card p{font-size:15px}.contact-grid a.contact-item{padding:18px}}
