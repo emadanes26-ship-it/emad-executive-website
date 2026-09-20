@@ -37,3 +37,10 @@ footer{background:#0f1720;color:#aeb6bd;padding:26px 6vw;display:flex;justify-co
 .email-icon{font-size:22px}.phone-icon{font-size:19px}
 .contact-grid small{font-size:11px}.contact-grid strong{font-size:15px;overflow-wrap:anywhere}
 @media(max-width:900px){#impact .portfolio-card span,.cards p,.row p,.dev-card p{font-size:15px}.contact-grid a.contact-item{padding:18px}}
+
+/* Responsive navigation and keyboard accessibility */
+section[id]{scroll-margin-top:100px}
+a:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+@media(max-width:900px){.nav{height:auto;min-height:76px;flex-wrap:wrap;padding:12px 5vw;gap:10px}.nav nav{display:flex;width:100%;overflow-x:auto;gap:20px;padding:4px 0 8px;scrollbar-width:thin}.nav nav a{white-space:nowrap;flex-shrink:0}.hero{min-height:0;padding:48px 6vw 62px}.hero h1{font-size:clamp(39px,8vw,56px);overflow-wrap:anywhere}.actions{flex-wrap:wrap}.section{padding:64px 6vw}.contact-grid strong{font-size:14px}}
+@media(max-width:400px){.hero h1{font-size:39px}.photo-frame{width:min(270px,80vw)}.btn{padding:12px 14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.portfolio-card{transition:none}}

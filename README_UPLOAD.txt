@@ -1,19 +1,7 @@
-EMAD EXECUTIVE WEBSITE V2 - FINAL
+EMAD EXECUTIVE WEBSITE — GITHUB PAGES UPLOAD
 
-Upload ALL files in this folder to the ROOT of the GitHub repository:
-emad-executive-website
+Upload the CONTENTS of this ZIP (not the enclosing folder) to the root of the emad-executive-website repository. Replace the existing index.html, style.css, image and PDFs, then commit changes. GitHub Pages should publish from the main branch / root.
 
-Replace the existing files with these versions.
+Positioning: International Commercial & Business Development Leader. Preserved the existing navy/gold visual design and broad cross-sector career story. Improved mobile navigation, keyboard focus, and direct Executive CV button.
 
-Main updates:
-- New positioning: INTERNATIONAL COMMERCIAL & BUSINESS DEVELOPMENT LEADER
-- Updated hero and executive profile
-- Added selected commercial impact section
-- Added Dubai expansion / approx. KWD 100,000 annual cost reduction
-- Added exclusive Saudi agency / 72+ branches achievement
-- Added Allianz Egypt #1 nationwide performance achievement
-- Added 44-person leadership responsibility
-- Updated career journey to match the latest Master CV
-- Updated contact email and LinkedIn
-- Uses the newly supplied portrait
-- Executive CV PDF replaced with the latest Master CV
+DOCUMENT CONSISTENCY NOTE: The supplied Executive Profile, Executive Portfolio, and Leadership Book are older editions and use the previous title Commercial Department Manager; the supplied Master CV and website use Commercial Director – Defense & Security Department. The older PDFs were included UNCHANGED to avoid altering approved documents without source files. The Executive Profile PDF also shows a different email address from the Master CV and website. Review these PDFs before sharing publicly if consistent branding is essential.
